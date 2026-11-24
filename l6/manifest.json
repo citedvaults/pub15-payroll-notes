@@ -1,0 +1,124 @@
+{
+ "counts": {
+  "chunk_cap": 500,
+  "chunk_words_max": 500,
+  "chunks": 377,
+  "edges": 759,
+  "edges_by_kind": {
+   "cluster": 83,
+   "reference": 324,
+   "related": 62,
+   "source": 83,
+   "topic": 83,
+   "where-used": 124
+  },
+  "heading_chunks_split": 42,
+  "notes": 84,
+  "notes_by_kind": {
+   "chapter note": 6,
+   "form note": 8,
+   "reference note": 1,
+   "section note": 62,
+   "structure note": 7
+  },
+  "pointers": 0,
+  "tasks": {
+   "open gap": 6
+  }
+ },
+ "dropped_edges": [
+  {
+   "from": "n9b1aef776639",
+   "kind": "reference",
+   "to_name": "Index"
+  },
+  {
+   "from": "n9b1aef776639",
+   "kind": "topic",
+   "to_name": "Index"
+  }
+ ],
+ "export_scope": "shareable",
+ "exporter": {
+  "checks/fmsyntax.py": "cc44d782e462c81ef30e0c29917f39a676168489",
+  "checks/vault_checks.py": "3d094e2d6fe78da914f1bcaa89837532e77bcdb6",
+  "tools/vault-export.py": "0b3e18067603f55312b458a6e845d52f7793e197"
+ },
+ "files": {
+  "chunks.jsonl": {
+   "bytes": 516168,
+   "lines": 377,
+   "sha256": "3e3d1b988cbf91d68bd70a3bb3169f198419278e735d8192335d0107a9290568"
+  },
+  "edges.jsonl": {
+   "bytes": 179994,
+   "lines": 759,
+   "sha256": "1464c8b8b30d54ea37346174c487f45d6ad3ebca63b295a52979bcfdc222089d"
+  },
+  "notes.jsonl": {
+   "bytes": 547092,
+   "lines": 84,
+   "sha256": "cc0e63e4922e64eb34bfc8f8b566de66d16159d84c6ee50b982846fa7c6611bd"
+  }
+ },
+ "left_out": [
+  {
+   "links": 47,
+   "name": "Index",
+   "reason": "blueprint note (decision L6-7)"
+  },
+  {
+   "links": null,
+   "name": "README.md",
+   "reason": "not a note (notes.not_notes)"
+  },
+  {
+   "links": null,
+   "name": ".obsidian/",
+   "reason": "not notes (notes.exclude_dirs)"
+  },
+  {
+   "links": null,
+   "name": "Templates/",
+   "reason": "not notes (notes.exclude_dirs)"
+  },
+  {
+   "links": null,
+   "name": "_optional/",
+   "reason": "not notes (notes.exclude_dirs)"
+  }
+ ],
+ "links": {
+  "c1_links": 808,
+  "dropped": 2,
+  "edges": 759,
+  "left_out_links": 47
+ },
+ "schema_version": 1,
+ "sources": [
+  {
+   "attribution": "Internal Revenue Service, Publication 15 (2026), Catalog Number 10000W",
+   "export_scope": "shareable",
+   "file": "p15.pdf",
+   "id": "P15",
+   "licence": "public domain (U.S. government work, 17 U.S.C. 105)",
+   "release": "2026",
+   "sha256": "b46c3622439d8521e3a0faca4cd5b5ece3451b526f65f06a5e38d5c9f804c88b",
+   "title": "Publication 15 (Circular E), Employer’s Tax Guide"
+  }
+ ],
+ "vault": {
+  "commit": "a41614cdf3e0f1e3360c5617288184f4819ec727",
+  "id": "irs-payroll",
+  "release": "2026",
+  "tag": "irs/v1.0-2026",
+  "title": "IRS Payroll",
+  "tree_vault": "8206a20604070ba87d12e64fbeb8a83e327dd37d"
+ },
+ "wording": {
+  "form_example": "941",
+  "form_id_label": "form number",
+  "section_example": "S11",
+  "source_kind": "an IRS publication"
+ }
+}
